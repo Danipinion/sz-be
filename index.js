@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: "https://besthy-fe.vercel.app",
+    origin: "https://safe-fe.vercel.app",
   })
 );
 app.use(
@@ -34,7 +34,7 @@ app.use("/message", messageRoute);
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://besthy-fe.vercel.app",
+    origin: "https://safe-fe.vercel.app",
   },
 });
 
