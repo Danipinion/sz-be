@@ -3,7 +3,6 @@ import {
   getMessages,
   createMessage,
 } from "../controllers/message.controller.js";
-import { verifyUser } from "../middleware/AuthUser.js";
 const router = Router();
 
 router.get("/", getMessages);

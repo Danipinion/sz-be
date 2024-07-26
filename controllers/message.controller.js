@@ -32,7 +32,7 @@ export const createMessage = async (req, res) => {
   try {
     // Check if user exists in the database
     const userExists = await prisma.users.findUnique({
-      where: { id: id },
+      where: { id },
     });
 
     if (!userExists) {

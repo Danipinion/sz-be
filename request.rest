@@ -1,0 +1,46 @@
+### GET ALL USER
+GET http://localhost:3003/users
+
+### GET USER BY ID
+GET http://localhost:3003/users/clyxy4h4w0001llyq70qo26bu
+
+### CREATE USER
+POST http://localhost:3003/users
+Content-Type: application/json
+
+{
+    "name": "test1",
+    "email": "2",
+    "password": "2",
+    "confPassword": "2"
+}
+
+### DELETE USER
+DELETE http://localhost:3003/users/1
+
+### LOGIN
+POST http://localhost:3003/auth/login
+Content-Type: application/json
+
+{
+    "email": "2",
+    "password": "2"
+}
+
+### ME
+GET http://localhost:3003/auth/me/clyx1or800000t16o0asl74ri
+
+### LOGOUT
+DELETE  http://localhost:3003/auth/logout
+
+### Get Message
+GET http://localhost:3003/message
+
+### Create Message
+POST http://localhost:3003/message/clz24p3z600006usj9vhh3cb1
+Content-Type: application/json
+
+{
+    "text": "test from aloha"
+}
+
