@@ -6,6 +6,6 @@ import {
 const router = Router();
 
 router.get("/", getMessages);
-router.post("/:id", createMessage);
+router.post("/", createMessage);
 
 export default router;
