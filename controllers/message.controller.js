@@ -18,7 +18,7 @@ export const getMessages = async (req, res) => {
 async function sendToExternalAPI(data) {
   try {
     const response = await fetch(
-      "http://103.247.12.9:3000/api/v1/prediction/7c409c1e-9997-4351-8aa5-a151074f0dc0",
+      "https://5546-103-247-12-10.ngrok-free.app/api/v1/prediction/7c409c1e-9997-4351-8aa5-a151074f0dc0",
       {
         headers: {
           Authorization: "Bearer QgbxuaheuYixNxAnq-USjP-7NJ41ndDOJC5cOyFqSDk",
