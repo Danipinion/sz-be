@@ -2,7 +2,7 @@
 GET http://localhost:3003/message
 
 ### Create Message
-POST http://localhost:3003/message
+POST https://sz-be.vercel.app/message
 Content-Type: application/json
 
 {

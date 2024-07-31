@@ -69,4 +69,4 @@ setInterval(async () => {
   } catch (error) {
     console.error("Error creating message:", error);
   }
-}, 1 * 24 * 60 * 60 * 1000);
+}, 6 * 60 * 60 * 1000);
